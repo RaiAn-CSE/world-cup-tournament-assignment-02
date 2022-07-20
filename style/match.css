@@ -1,0 +1,262 @@
+/* Google Font Poppins Regular 400  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Full body  */
+:root {
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------Banner: The Greatest show on the earth */
+
+header {
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+    width: 85%;
+    margin: 50px auto 140px;
+    height: 500px;
+}
+
+.banner {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-content {
+    width: 50%;
+    height: 90%;
+
+    padding: 20px 10px 0px 80px;
+}
+
+.banner-content h1 {
+    font-family: var(--font1);
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-family: var(--font1);
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.anchor-tag {
+    border-radius: 5%;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+.banner-img {
+    height: 100%;
+    margin-right: 40px;
+}
+
+.banner-img img {
+    margin-top: 50px;
+    height: 90%;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+/* ----------------------------------------------Cover Done  */
+/* -----------------------------------------main body start  */
+.blog-content {
+    display: flex;
+    margin: 0 100px;
+}
+
+.nav-bar {
+    width: 240px;
+    height: 255px;
+    background-color: #161616;
+    margin-right: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar button {
+    width: 180px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-bar button a {
+    color: #161616;
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-bar .active-now {
+    background-color: #DD0000;
+}
+
+.nav-bar .active-now a {
+    color: white;
+}
+
+/* --------------------------------------------------content  */
+.contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog {
+    width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+}
+
+.blog-elements {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .flags {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flags h2 {
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.flag-1,
+.flag-2 {
+    width: 30%;
+}
+
+.flags .flag-1 img,
+.flags .flag-2 img {
+    width: 100%;
+}
+
+.country-names h2 {
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.match-time p {
+    margin-top: 0;
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+/* ------------------------------------------------------End Main Body */
+/* -----------------------------------------------Start Footer */
+
+footer {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: #161616;
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-title {
+    margin-bottom: 12px;
+}
+
+footer hr {
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+}
+
+footer .footer-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 45px;
+    color: #B9B9B9;
+}
+
+.footer-menu {
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.social-media-link a {
+    font-size: 18px;
+    color: white;
+
+}
+
+.social-media-link {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+
+.fb:hover i {
+    transition: all 1s;
+    color: #4267B2
+}
+
+.messenger:hover i {
+    transition: all 1s;
+    color: #00B2FF;
+}
+
+.twitter:hover i {
+    transition: all 1s;
+    color: #1DA1F2;
+}
+
+.youtube:hover i {
+    transition: all 1s;
+    color: red;
+}
+
+
+/* -----------------------------------------------------------End Footer */
