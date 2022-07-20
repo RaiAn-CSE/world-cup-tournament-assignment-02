@@ -196,6 +196,10 @@ header {
     text-align: center;
 }
 
+.view-all {
+    display: none;
+}
+
 /* ------------------------------------------------------End Main Body */
 /* -----------------------------------------------Start Footer */
 
@@ -442,8 +446,31 @@ footer .footer-menu a {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .view-tag {
+        border-radius: 5%;
+        font-size: 15px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: var(--font2);
+        font-weight: bold;
+    }
+
+    .view-all {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
 
     /* footer Menu  */
+    footer {
+        margin-top: 50px;
+    }
+
     .footer-menu {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
